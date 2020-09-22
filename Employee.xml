@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee mark="三好员工">
+    <homeTown>
+        <text>湖北省黄冈市</text>
+        <leaveDate>2020-09-21T15:00:26.416+08:00</leaveDate>
+    </homeTown>
+    <currAddress>
+        <text>上海市普陀区</text>
+        <arriveDate>2020-09-21T15:00:26.416+08:00</arriveDate>
+    </currAddress>
+    <skill>
+        <id>0</id>
+        <type>安卓</type>
+        <desc>精通</desc>
+    </skill>
+    <skill>
+        <id>1</id>
+        <type>java</type>
+        <desc>熟悉</desc>
+    </skill>
+    <skill>
+        <id>1</id>
+        <type>html5</type>
+        <desc>熟悉</desc>
+    </skill>
+    <skill>
+        <id>1</id>
+        <type>kotlin（科特林）</type>
+        <desc>熟悉</desc>
+    </skill>
+    <Role>
+        <id>2</id>
+        <name>Java开发</name>
+        <level>Normal</level>
+    </Role>
+    <department mark="核心部门">
+        <important>是的</important>
+        <employeeList>
+            <employee mark="三好员工">
+                <id>0</id>
+                <female>
+                    <desc>女人</desc>
+                    <dressUp>画眉</dressUp>
+                </female>
+                <workPositionMap/>
+            </employee>
+        </employeeList>
+        <id>1010</id>
+        <name>研发部</name>
+    </department>
+    <id>10</id>
+    <name>邓安迪</name>
+    <rolesMap>
+        <roleEntity key="Normal">
+            <role>
+                <id>0</id>
+                <name>普通员工</name>
+                <level>Normal</level>
+            </role>
+        </roleEntity>
+        <roleEntity key="Middle">
+            <role>
+                <id>0</id>
+                <name>中层技术管理</name>
+                <level>Middle</level>
+            </role>
+        </roleEntity>
+    </rolesMap>
+    <female>
+        <desc>女人</desc>
+        <dressUp>画眉</dressUp>
+    </female>
+    <workPositionMap>
+        <workPosition code="70205">大厦B座702室5号</workPosition>
+        <workPosition code="70206">大厦B座702室6号</workPosition>
+    </workPositionMap>
+</employee>
